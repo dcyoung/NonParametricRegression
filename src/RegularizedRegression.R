@@ -10,7 +10,7 @@ require('caret')
 setwd('/WorkingDirectory')
 
 #-------------------------------------------------------------------------
-# QUESTION 1.1
+# Regularized Regression (LASSO)
 #-------------------------------------------------------------------------
 LocData = read.csv("Locations.txt",header=TRUE, sep = " ");
 TempData = read.csv("Oregon_Met_Data.txt",header=TRUE, sep = " ");

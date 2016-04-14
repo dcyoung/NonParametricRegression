@@ -9,9 +9,9 @@ require("base")
 require('caret')
 setwd('/WorkingDirectory')
 
-#-------------------------------------------------------------------------
-# QUESTION 1.1
-#-------------------------------------------------------------------------
+#------------------------------------------------------------------------------------
+# Find Optimal Scale for UnRegularized Non-Parametric Regression via Cross Validation
+#------------------------------------------------------------------------------------
 LocData = read.csv("Locations.txt",header=TRUE, sep = " ");
 TempData = read.csv("Oregon_Met_Data.txt",header=TRUE, sep = " ")
 LocData = LocData[,c(1,7:8)] 	#only concerned with the UTM units for lattitude and longitude

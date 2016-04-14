@@ -9,7 +9,7 @@ require("base")
 require('caret')
 setwd('WorkingDirectory');
 #-------------------------------------------------------------------------
-# QUESTION 1.1
+# Unregularized Non-Parametric Regression
 #-------------------------------------------------------------------------
 LocData = read.csv("Locations.txt",header=TRUE, sep = " ");
 TempData = read.csv("Oregon_Met_Data.txt",header=TRUE, sep = " ")
